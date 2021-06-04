@@ -13,7 +13,10 @@ body{
 .contact,
 .events,
 .support {
-  display: flex;
   margin-left: 260px;
-  font-size: 2rem;
+}
+@media(max-width: 767px){
+  .home{
+      margin-left: auto;
+  }
 }
